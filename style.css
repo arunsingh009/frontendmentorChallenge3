@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body::before{
+    content: "";
+    height: 100vh;
+    width: 100%;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+}
+main{
+    height: 95vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 94%);
+    z-index: -1;
+}
+.card{
+    width: 320px;
+    height: 490px;
+    /* border: 2px solid black; */
+    z-index: 1;
+    background-color: hsl(225, 100%, 98%);
+    border-radius:15px ;
+}
+.img{
+    width:100%;
+    height: 170px;
+    border-radius: 15px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.content{
+    width: 90%;
+    height: 280px;
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.h1{
+    font-size: 20px;
+    font-weight: 900;
+    /* color: hsl(224, 23%, 55%); */
+    color: hsl(223, 47%, 23%);
+}
+.para{
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding:0px 2%;
+
+}
+.plan{
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.plan1{
+    margin-left: 10px;
+}
+.plan1 :nth-child(1){
+    color:hsl(223, 47%, 23%) ;
+    font-weight: 700;
+}
+.plan2{
+    margin-left: 45px;
+    transition: 0.2s ease-in-out;
+    
+}
+.plan2:hover{
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+.button{
+    width: 90%;
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 90%;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.cancel{
+    font-size: 16px;
+    font-weight: 700;
+    color:hsl(224, 23%, 55%) ;
+    transition: 0.43ms ease-in;
+}
+.cancel:hover{
+    color:hsl(223, 47%, 23%) ;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 94%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
