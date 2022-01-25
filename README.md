@@ -27,9 +27,9 @@ Users should be able to:
 
 ### Screenshot
 <div>
-<img src="./output/a1.png" width="300px" height="400px">
-<img src="./output/a2.png" width="300px" height="400px">
-<img src="./output/a3.png" width="300px" height="400px">
+<img src="./output/a1.png" width="290px" height="400px">
+<img src="./output/a2.png" width="290px" height="400px">
+<img src="./output/a3.png" width="290px" height="400px">
 </div>
 <img src="./output/desktop.png" width="100%" height="100%">
 <img src="./output/mobile.png" width="100%" height="100%">
